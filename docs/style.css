@@ -142,7 +142,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    background-size: 1920px 1080px;
+    background-size: 560px 560px;
 }
 
 .b-parallax {
@@ -867,18 +867,22 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    background-size: 100px 100px;
 }
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+    background-size: 100px 100px;
 }
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-size: 1920px 785px;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
+    background-size: 1920px 1080px;
 }
 
 @media (max-width: 1024px) {
