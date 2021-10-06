@@ -9,6 +9,34 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.my-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label-seo {
+    margin-bottom: 5px;
+}
+
+.submit-button {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    width: 100px;
+    justify-self: flex-start;
+}
+
+.form-group-seo {
+    /* width: 100%;
+    display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+     */
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    margin: 10px;
+}
 
 .primary-color {
     color: #6D2809 !important;
